@@ -20,6 +20,7 @@ nav {
     position: absolute;
     left: 0px;
     width: 40%;
+    margin-top: 10px;
     
 }
 
@@ -96,17 +97,23 @@ section {
     width: 60%;
     background-color:rgba(245, 243, 240, 0.915);
     opacity: 0.8;
-    padding: 10px;
+    padding: 15px;
     border: 2px none;
     border-radius: 10px;
     box-shadow: 3px 5px 2px rgb(2, 2, 81);
     transition: width 3s;
 }
-#section {transition-timing-function: ease}
+
+#section 
+    {transition-timing-function: ease}
 
 section:hover {
-    width: 61%;
+    width: 62%;
     opacity: 1;
+}
+
+p {
+    text-align: justify;
 }
 
 .image1 {
@@ -114,3 +121,6 @@ section:hover {
     margin-left: 30%;
     border-radius: 50%;
 }
+
+/* media screen */
+
