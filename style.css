@@ -74,12 +74,12 @@ h1 {
 
 /* media screen */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     nav {
         display: inline;
         font-size: 100%;
-        left: 100px;
-        right: 100px;
+        left: 90px;
+        right: 90px;
     }
     .icons {
         font-size: 120%;
@@ -93,7 +93,7 @@ h1 {
         font-size: 120%;
     }
     h3 {
-        font-size: 110%;
+        font-size: 100%;
     }
     .about {
         font-size: 100%;
@@ -104,7 +104,7 @@ h1 {
 
 }
 
-@media screen and (min-width:300px) and (max-width:768px) {
+@media screen and (min-width:400px) and (max-width:768px) {
     body {
         background-size: cover;
     }
@@ -140,8 +140,5 @@ h1 {
 }
 
 @media screen and (min-width:768px) {
-    body {
-        background-image: url("bigsur.jpeg");
-        background-size: cover;
-    }
+    
 }
