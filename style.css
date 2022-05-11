@@ -71,3 +71,77 @@ h1 {
     margin: 50px;
     
 }
+
+/* media screen */
+
+@media screen and (max-width: 300px) {
+    nav {
+        display: inline;
+        font-size: 100%;
+        left: 100px;
+        right: 100px;
+    }
+    .icons {
+        font-size: 120%;
+        margin: 70px;
+    }
+    .one {
+        margin: 100px;
+    }
+
+    h1 {
+        font-size: 120%;
+    }
+    h3 {
+        font-size: 110%;
+    }
+    .about {
+        font-size: 100%;
+    }
+    .two {
+        font-size: 100%;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:768px) {
+    body {
+        background-size: cover;
+    }
+    
+    nav {
+        display:inline;
+        font-size: 100%;
+        left:50px;
+        right:50px;     
+    }
+    .icons {
+        font-size: 120%;
+        margin: 70px;
+    }
+    .one {
+        margin: 100px;
+    }
+
+    h1 {
+        font-size: 120%;
+    }
+    h3 {
+        font-size: 100%;
+    }
+
+    .about {
+        font-size: 100%;
+    }
+    .two {
+        font-size: 100%;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background-image: url("bigsur.jpeg");
+        background-size: cover;
+    }
+}
