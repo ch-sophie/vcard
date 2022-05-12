@@ -103,6 +103,11 @@ h1 {
         font-size: 100%;
     }
 
+    .flex-container {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media screen and (min-width:300px) and (max-width:768px) {
@@ -130,6 +135,7 @@ h1 {
     }
     h3 {
         font-size: 100%;
+        margin-bottom: 20px;
     }
 
     .about {
@@ -142,5 +148,8 @@ h1 {
 }
 
 @media screen and (min-width:768px) {
-    
+    nav {
+        left: 200px;
+        right: 200px;
+    }
 }
