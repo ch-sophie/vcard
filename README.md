@@ -7,5 +7,7 @@ Make a small page serving as a virtual business card.
 
 #### _Link_: https://ch-sophie.github.io/vcard 
 
+![home page](home.png)
+
 
 
