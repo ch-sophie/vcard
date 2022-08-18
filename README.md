@@ -1,8 +1,11 @@
-# Vcard
+# Vcard   
+Make a small page serving as a virtual business card.
 
-### _Link_ 
+### Learning objectives:
+- write better semantic HTML
+- use CSS positioning 
 
-##### https://ch-sophie.github.io/vcard 
+#### _Link_: https://ch-sophie.github.io/vcard 
 
-##### https://ch-sophie.github.io/vcard/about
+
 
