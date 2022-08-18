@@ -1,12 +1,11 @@
 body {
-    background-image: url("bigsur.jpeg");
+    background-image: url("bigsur2.jpg");
     background-size: cover;
     color: white;
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
     
 }
-
 a:link {
     color: white;
     text-decoration: none;
@@ -23,7 +22,6 @@ a:active {
     color:white;
     text-decoration: none;
 }
-
 nav {
     display: inline;
     font-size: 110%;
@@ -34,7 +32,6 @@ nav {
     right: 300px;
     padding: 5px;
 }
-
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -46,35 +43,28 @@ nav {
     padding-right: 10px;
     padding-bottom: 10px;
 }
-
 .icons {
     margin-top: 60px;
     font-size: 200%;
 }
-
 .one {
     text-align: center;
     position: relative;
     margin: 140px;
 
 }
-
 h1 {
     font-size: 250%;
 }
-
-.about {
+/* .about {
     font-size: 110%;
     margin: -10px;
-}
-
+} */
 .two {
-    margin: 50px;
-    
+    margin: 40px;
 }
 
 /* media screen */
-
 @media screen and (max-width: 300px) {
     nav {
         display: inline;
@@ -89,7 +79,6 @@ h1 {
     .one {
         margin: 100px;
     }
-
     h1 {
         font-size: 130%;
     }
@@ -102,7 +91,6 @@ h1 {
     .two {
         font-size: 100%;
     }
-
     .flex-container {
         margin: 0;
         padding-left: 0;
@@ -114,7 +102,6 @@ h1 {
     body {
         background-size: cover;
     }
-    
     nav {
         display:inline;
         font-size: 100%;
@@ -137,14 +124,12 @@ h1 {
         font-size: 100%;
         margin-bottom: 20px;
     }
-
     .about {
         font-size: 100%;
     }
     .two {
         font-size: 100%;
     }
-
 }
 
 @media screen and (min-width:768px) {
