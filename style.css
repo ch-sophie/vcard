@@ -1,33 +1,33 @@
 body {
-    background-image: url("bigsur2.jpg");
+    background-image: url("./mountains.jpeg");
+    /* background-image: url("/bigsur2.jpg"); */
     background-size: cover;
-    color: white;
+    color: #ffffff;
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
-    
+    /* overflow: hidden; */
 }
 a:link {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 a:visited {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 a:hover {
-    color:lightcoral;
+    color:#f08080;
     text-decoration: none;
 }
 a:active {
-    color:white;
+    color:#ffffff;
     text-decoration: none;
 }
 nav {
     display: inline;
     font-size: 110%;
     word-spacing: 10px;
-    border: 3px double white;
-    position: fixed;
+    border: 3px double #ffffff;
     left: 300px;
     right: 300px;
     padding: 5px;
@@ -37,21 +37,20 @@ nav {
     flex-direction: column;
     position:relative;
     text-align: center;
-    margin: 15px;
+    margin: 10px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
 }
 .icons {
-    margin-top: 60px;
+    margin-top: 50px;
     font-size: 200%;
 }
 .one {
     text-align: center;
     position: relative;
     margin: 140px;
-
 }
 h1 {
     font-size: 250%;
@@ -69,27 +68,27 @@ h1 {
     nav {
         display: inline;
         font-size: 100%;
-        left: 40px;
-        right: 40px;
+        left: 20px;
+        right: 20px;
     }
     .icons {
         font-size: 150%;
-        margin: 70px;
+        margin-top: 25%;
     }
     .one {
-        margin: 100px;
+        margin: 0;
+        margin-top: 25%;
     }
     h1 {
-        font-size: 130%;
+        font-size: 170%;
     }
-    h3 {
-        font-size: 100%;
-    }
-    .about {
-        font-size: 100%;
+    h2 {
+        font-size: 120%;
     }
     .two {
         font-size: 100%;
+        margin: 0;
+        margin-top: 25%;
     }
     .flex-container {
         margin: 0;
@@ -98,43 +97,93 @@ h1 {
     }
 }
 
-@media screen and (min-width:300px) and (max-width:768px) {
-    body {
-        background-size: cover;
+@media screen and (min-width:301px) and (max-width:350px){
+    nav {
+        display: inline;
+        font-size: 100%;
+        left: 20px;
+        right: 20px;
     }
+    .icons {
+        font-size: 150%;
+    }
+    .one {
+        margin: 0;
+        margin-top: 20%;
+    }
+    h1 {
+        font-size: 170%;
+    }
+    h2 {
+        font-size: 120%;
+    }
+    .two {
+        font-size: 100%;
+        margin: 0;
+        margin-top: 25%;
+    }
+    .flex-container {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (min-width:351px) and (max-width:450px) {
     nav {
         display:inline;
         font-size: 100%;
-        left:40px;
-        right:40px;     
+        left: 40px;
+        right: 40px;     
         padding: 10px;
     }
     .icons {
         font-size: 180%;
-        margin: 70px;
+        /* margin: 80px; */
     }
     .one {
-        margin: 100px;
+        margin: 0;
+        margin-top: 100px;
     }
-
     h1 {
-        font-size: 130%;
+        font-size: 170%;
     }
-    h3 {
-        font-size: 100%;
+    h2 {
+        font-size: 120%;
         margin-bottom: 20px;
-    }
-    .about {
-        font-size: 100%;
     }
     .two {
         font-size: 100%;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:768px){
+    nav{
+        padding:10px;
+    }
+    .one{
+        margin:0;
+        margin-top: 170px;
+        margin-bottom: 170px;
+    }
+    h1{
+        font-size: 280%;
+    }
+    h2{
+        font-size: 180%;
+    }
+    .two{
+        margin: 100px;
     }
 }
 
 @media screen and (min-width:768px) {
-    nav {
+    body{
+        overflow: hidden;
+    }
+    /* nav {
         left: 200px;
         right: 200px;
-    }
+    } */
 }
