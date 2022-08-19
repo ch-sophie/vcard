@@ -232,7 +232,7 @@ h1 {
   }
   
   .flip-card-back {
-    background-color: #165c99;
+    background-color: #142b62;
     color: white;
     transform: rotateY(180deg);
   }
