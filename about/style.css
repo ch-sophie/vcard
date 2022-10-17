@@ -1,6 +1,6 @@
 body {
     /* display: block; */
-    background-image: url("../images/mountains.jpeg"); 
+    background-image: url("../images/background5.jpeg"); 
     background-size: cover;
     font-family: 'Cabin', sans-serif;
     font-weight: 500;
@@ -22,77 +22,17 @@ nav {
     width: 40%;
     margin-top: 20px;
 }
-.one {
-    margin: 10px;
-    border: 2px none;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: whitesmoke;
-    opacity: 0.8;
-    box-shadow: 3px 3px 3px lightgrey;
 
-}
-.one:link {
-    text-decoration: none;
-}
-.one:hover {
-    background-color: lightskyblue;
-    text-decoration: none;
-    transition-duration: 3s;
-}
-.one:visited {
-    text-decoration: none;
-}
-.two {
-    margin: 10px;
-    border: 2px none;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: whitesmoke;
-    opacity: 0.8;
-    box-shadow: 3px 3px 3px lightgrey;
-}
-.two:link {
-    text-decoration: none;
-}
-.two:hover {
-    background-color:lightcoral;
-    text-decoration: none;
-    transition-duration: 3s;
-}
-.two:visited {
-    text-decoration: none;
-}
-.three {
-    margin: 10px;
-    border: 2px none;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: whitesmoke;
-    opacity: 0.8;
-    box-shadow: 3px 3px 3px lightgrey;
-}
-.three:link {
-    text-decoration: none;
-}
-.three:hover {
-    background-color:lightgreen;
-    transition-duration: 3s;
-    text-decoration: none;
-}
-.three:visited {
-    text-decoration: none;
-}
 section {
     position: relative;
     margin: auto;
     width: 55%;
     background-color:#f0f1f5e9;
-    opacity: 0.8;
+    opacity: 0.9;
     padding: 30px;
     border: 2px none;
     border-radius: 10px;
-    box-shadow: 3px 5px 2px #142b62;
+    box-shadow: 3px 5px 2px #1b3b54;
     transition: width 3s;
 }
 #section 
@@ -112,7 +52,7 @@ p {
     text-align: center !important;
     font-weight: 600;
     /* color: #165c99; */
-    color: #fe5f55;
+    color: #fc9f5b;
 }
 .flip-card {
     width: 100%;
@@ -150,16 +90,67 @@ p {
 }
 .contact{
     font-weight: 600;
-    color: #fe5f55;
+    color: #fc9f5b;
 }
 .icons{
     font-size: 2em;
     padding: 30px;
-    color:#fe5f55;
+    color:#fc9f5b;
 }
 .icons:hover{
-    color:#142b62;
+    color:#33658a;
 }
 
 /* media screen */
+@media screen and (max-width:428px) {
+    section{
+        width: 180%;
+    }
+    section:hover{
+        width: 180%;
+    }
+    #container{
+        margin:0;
+    }
+}
+
+@media screen and (min-width:429px) and (max-width:530px) {
+    section{ 
+        width:150%;
+    }
+    section:hover{
+        width:150%;
+    }
+    #container{
+        margin:22px;
+    }
+}
+
+@media screen and (min-width:531px) and (max-width:635px) {
+    section{
+        width: 120%;
+    }
+    section:hover{
+        width: 120%;
+    }
+    #container{
+        margin-left:70px;
+        margin-right:50px;
+    }
+}
+
+@media screen and (min-width:636px) and (max-width:824px) {
+    section{
+        width: 100%;
+    }
+    section:hover{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 825px) and (max-width:1231px) {
+    #container{
+        max-width: 70%;
+    }
+}
 
