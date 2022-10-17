@@ -1,5 +1,5 @@
 body {
-    background-image: url("./images/mountains.jpeg");
+    background-image: url("./images/background5.jpeg");
     /* background-image: url("/bigsur2.jpg"); */
     background-size: cover;
     color: #ffffff;
@@ -8,19 +8,19 @@ body {
     /* overflow: hidden; */
 }
 a:link {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 a:visited {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 a:hover {
-    color:#f08080;
+    color:#fc9f5b;
     text-decoration: none;
 }
 a:active {
-    color:#ffffff;
+    color:#fff;
     text-decoration: none;
 }
 nav {
@@ -189,11 +189,16 @@ h1 {
 }
 
 /* portfolio css */
+.bodyPortfolio{
+    background-image: url("./images/mountains.jpeg");
+}
+
 .cardblock{
     display: flex;
     flex-direction: row;
     margin: auto;
     padding-top: 110px;
+    padding-bottom: 20px;
 }
 
 .flip-card {
@@ -201,7 +206,7 @@ h1 {
     width: 350px;
     height: 260px;
     perspective: 1000px;
-    margin: 30px;
+    margin: 20px;
   }
   
   .flip-card-inner {
@@ -241,9 +246,30 @@ h1 {
     text-decoration: underline;
   }
 
-  @media screen and (max-width:768px){
+  @media screen and (max-width:1090px){
     .cardblock{
         display: flex;
         flex-direction: column;
+    }
+    body{
+        background-size: auto;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .cardblock{
+        padding-top: 10px;
+    }
+    .flip-card{
+        margin: 10px;
+    }
+  }
+
+  @media screen and (max-width:1200px) {
+    .flip-card{
+        margin: 10px;
+    }
+    body{
+        overflow: auto;
     }
   }
