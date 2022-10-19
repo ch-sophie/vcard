@@ -1,5 +1,5 @@
 body {
-    background-image: url("./images/background5.jpeg");
+    background-image: url("./images/mountains.jpeg");
     /* background-image: url("/bigsur2.jpg"); */
     background-size: cover;
     color: #ffffff;
@@ -16,7 +16,7 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color:#fc9f5b;
+    color:#f08080;
     text-decoration: none;
 }
 a:active {
@@ -189,9 +189,7 @@ h1 {
 }
 
 /* portfolio css */
-.bodyPortfolio{
-    background-image: url("./images/mountains.jpeg");
-}
+
 
 .cardblock{
     display: flex;
